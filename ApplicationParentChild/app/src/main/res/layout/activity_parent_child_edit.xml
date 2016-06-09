@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.diba.applicationparentchild.ParentChildEdit">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Child Name : "/>
+            <EditText
+                android:id="@+id/ed_childName"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/edittext_shape"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#C0C0C0" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Age : "/>
+
+            <EditText
+                android:id="@+id/ed_childAge"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/edittext_shape"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#C0C0C0" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text="Problem : "/>
+
+            <EditText
+                android:id="@+id/ed_childProblem"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/edittext_shape"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#C0C0C0" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:text="Save"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_saveChild"
+                android:textColor="#ffffff"
+                android:background="@drawable/button"/>
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\DIBA\Desktop\WebApplication</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/AndroidAppDB.mdf">
+      <publishTime>03/13/2015 23:37:23</publishTime>
+    </File>
+    <File Include="App_Data/AndroidAppDB_log.ldf">
+      <publishTime>03/13/2015 23:37:24</publishTime>
+    </File>
+    <File Include="bin/JsonServices.dll">
+      <publishTime>08/01/2013 15:03:48</publishTime>
+    </File>
+    <File Include="bin/JsonServices.Web.dll">
+      <publishTime>08/01/2013 15:03:48</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/09/2012 21:00:10</publishTime>
+    </File>
+    <File Include="bin/WebApplication.dll">
+      <publishTime>03/14/2015 10:27:50</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/13/2015 12:30:40</publishTime>
+    </File>
+    <File Include="Handler1.ashx">
+      <publishTime>03/02/2015 01:40:00</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/13/2015 12:47:00</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>03/14/2015 09:19:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
